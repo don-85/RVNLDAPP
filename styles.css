@@ -10,7 +10,7 @@ body {
     background: linear-gradient(120deg, #f8f9fc, #eff3f3, #eef1f1); /* Gradient background */
     background-size: 200% 200%; /* For animated gradient */
     animation: gradientMove 6s ease infinite; /* Smooth gradient animation */
-    color: rgb(173, 99, 99);
+    color: rgb(243, 238, 238);
     overflow: auto; /* Allow scrolling if necessary */
   }
   
@@ -33,7 +33,7 @@ body {
   .container {
     width: 90%; /* Flexible width to fit different devices */
     max-width: 400px; /* Limit the maximum width */
-    background: rgb(45, 185, 204); 
+    background: rgba(45, 185, 204, 0.863); 
     padding: 20px 30px;
     border-radius: 12px;
     box-shadow: 0 8px 16px rgba(233, 228, 228, 0.233);
