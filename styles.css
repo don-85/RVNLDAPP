@@ -1,0 +1,139 @@
+/* General Styles */
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Full viewport height */
+    background: linear-gradient(120deg, #f8f9fc, #eff3f3, #eef1f1); /* Gradient background */
+    background-size: 200% 200%; /* For animated gradient */
+    animation: gradientMove 6s ease infinite; /* Smooth gradient animation */
+    color: rgb(173, 99, 99);
+    overflow: auto; /* Allow scrolling if necessary */
+  }
+  
+  /* Smooth scrolling */
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  /* Particles Background */
+  #particles-js {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Push behind other content */
+  }
+  
+  /* Container Styling */
+  .container {
+    width: 90%; /* Flexible width to fit different devices */
+    max-width: 400px; /* Limit the maximum width */
+    background: rgb(45, 185, 204); 
+    padding: 20px 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(233, 228, 228, 0.233);
+    text-align: center;
+    color: #fff;
+  }
+  
+  /* Buttons */
+  button {
+    display: inline-block;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .btn-primary {
+    background-color: #0d6efd;
+    color: white;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0d6efd;
+    transform: scale(1.05);
+  }
+  
+  .btn-secondary {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .btn-secondary:hover {
+    background-color: #218838;
+    transform: scale(1.05);
+  }
+  
+  /* Input Fields */
+  .input-field {
+    width: 80%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #444;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    background: #faf8f8;
+    color: #fff;
+  }
+  
+  /* Cards */
+  .card {
+    background: #292829de;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(228, 224, 224, 0.767);
+  }
+  
+  /* Messages */
+  .message-box {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 6px;
+    background: #0c0c0ca4;
+    color: #fffefe;
+    font-size: 14px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(240, 233, 233, 0.705);
+  }
+  
+  /* Responsive Design for Smaller Screens */
+  @media (max-width: 768px) {
+    .container {
+      width: 95%; /* Adjust container width on smaller screens */
+      max-width: none; /* Remove maximum width limit */
+      padding: 15px 20px;
+    }
+  
+    button {
+      font-size: 14px; /* Adjust button font size for smaller screens */
+      padding: 10px 16px;
+    }
+  
+    .input-field {
+      font-size: 14px; /* Adjust input font size */
+    }
+  }
+  
+  /* Animation for the gradient */
+  @keyframes gradientMove {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  

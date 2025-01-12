@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RVNL Token Sale</title>
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles.css">
+  <!-- Web3.js -->
+  <script src="https://cdn.jsdelivr.net/npm/web3@1.8.2/dist/web3.min.js"></script>
+  <!-- Particles.js -->
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+</head>
+
+<body>
+  <!-- Particles Background -->
+  <div id="particles-js"></div>
+  <div class="container">
+    <h1>🚀 RVNL Token Sale</h1>
+    <p class="tagline">Buy RVNL Tokens Using USDT or BNB</p>
+
+    <div class="wallet">
+      <button id="connectWallet" class="btn-primary">Connect Wallet</button>
+      <p id="walletAddress">Wallet: Not Connected</p>
+    </div>
+
+    <div class="actions">
+      <div class="card">
+        <h3>Approve USDT</h3>
+        <button id="approveUSDT" class="btn-secondary">Approve USDT</button>
+      </div>
+
+      <div class="card">
+        <h3>Buy RVNL Tokens</h3>
+        <input type="number" id="usdtAmount" placeholder="Enter USDT amount" class="input-field">
+        <button id="buyRVNL" class="btn-primary">Buy RVNL</button>
+      </div>
+    </div>
+
+    <div id="message" class="message-box"></div>
+    <button id="addToken" class="btn-secondary">Add RVNL to Wallet</button>
+  </div>
+  <script src="app.js"></script>
+  <script src="particles.js"></script>
+</body>
+
+</html>
