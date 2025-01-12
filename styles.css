@@ -33,12 +33,12 @@ body {
   .container {
     width: 90%; /* Flexible width to fit different devices */
     max-width: 400px; /* Limit the maximum width */
-    background: rgba(45, 185, 204, 0.863); 
+    background: rgb(22, 222, 248); 
     padding: 20px 30px;
     border-radius: 12px;
     box-shadow: 0 8px 16px rgba(233, 228, 228, 0.233);
     text-align: center;
-    color: #fff;
+    color: black;
   }
   
   /* Buttons */
@@ -54,8 +54,8 @@ body {
   }
   
   .btn-primary {
-    background-color: #0d6efd;
-    color: white;
+    background-color: #f38e09;
+    color: black;
   }
   
   .btn-primary:hover {
@@ -64,12 +64,12 @@ body {
   }
   
   .btn-secondary {
-    background-color: #28a745;
-    color: white;
+    background-color: #29e053;
+    color: black;
   }
   
   .btn-secondary:hover {
-    background-color: #218838;
+    background-color: #f07109;
     transform: scale(1.05);
   }
   
@@ -78,16 +78,16 @@ body {
     width: 80%;
     padding: 12px;
     font-size: 16px;
-    border: 1px solid #444;
+    border: 1px solid #cac9c9;
     border-radius: 6px;
     margin-bottom: 20px;
     background: #faf8f8;
-    color: #fff;
+    color: black;
   }
   
   /* Cards */
   .card {
-    background: #292829de;
+    background: #585458a1;
     border-radius: 8px;
     padding: 20px;
     margin-bottom: 20px;
